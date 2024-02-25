@@ -1,0 +1,69 @@
+======================================
+Klasse für Pflanzen
+___________________________________
+Strain: String
+Type (indica/sativa): bool
+isAuto: bool
+Blütedauer Wochen (Herstellerangabe): int
+Möglicher Ertrag in Gramm pro Pflanze: int
+___________________________________
+Methoden:
+logPlant()
+
+
+======================================
+Klasse für die Umgebungsfaktoren in der Environment/GrowBox
+___________________________________
+pH (Leitungswasser): double 
+Maße (BxTxH)cm: int
+LED Leistung in Watt: int
+LED Höhe in cm: int
+___________________________________
+Methoden:
+logEnvironment()
+
+
+======================================
+Klasse für User
+___________________________________
+Username: String
+Passwort: String
+Email: String
+ID: int
+Alter: int
+___________________________________
+Methoden:
+SignIn()
+LogIn()
+
+
+======================================
+Klasse für Dünger
+___________________________________
+Name: String
+Hersteller: String
+Empfohlene Dosis vom Hersteller g oder ml pro Liter: int
+Eigene, reduzierte Dosis in g oder ml pro Liter: int
+Art (Eingabe l oder p für liquid bzw. pulver) : bool
+
+___________________________________
+Methoden:
+dateningabee()
+setOwnDose()
+
+
+======================================
+Klasse für daily Journal
+___________________________________
+Datum in (dd.mm.yy): List
+Fertilizer Menge 
+in g/ml: int
+Wassermenge in Liter: double
+Pflanzenhöhe in cm: int
+RLF Environment in %: int
+Temperature Environment in °C: int
+___________________________________
+Methoden:
+protocol()
+
+

@@ -1,0 +1,10 @@
+
+------------------------------------------------------------ EINGABE
+
+    stdout.write('Gib was ein: ');
+    VARIABLE = stdin.readLineSync() ?? '';
+
+    => => "??" = stellt sicher, dass VARIABLE auch dann einen WErt bekommt, 
+      wenn die Eingabe leer oder sonstwie problematisch war.
+
+------------------------------------------------------------    
